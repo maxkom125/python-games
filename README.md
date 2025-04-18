@@ -45,16 +45,50 @@ cd catch_the_star
 python catch_the_star.py
 ```
 
+### 2. Snake Game (Pygame)
+
+A classic Snake game implementation where you control a snake that grows as it eats food. [Go to game directory](snake_game/) | [Detailed instructions](snake_game/README.md)
+
+![Gameplay](snake_game/docs/images/snake_game_gameplay.png)
+
+**Game Description:**
+In this classic game, you control a snake that grows longer as it eats food. The goal is to eat as much food as possible without running into yourself.
+
+**Features:**
+- Simple and intuitive controls with arrow keys
+- Power-ups that provide bonus points
+- Screen wrapping (go through walls to come out the other side)
+- High score tracking
+
+**Game Elements:**
+- **Snake**: The green character you control
+- **Red apples**: Regular food that gives 1 point and makes your snake grow
+- **Yellow power-ups**: Special items that give 5 bonus points
+
+**How to Run:**
+```bash
+# Make sure you have Python and Pygame installed
+pip install pygame
+
+# Navigate to the game directory
+cd snake_game
+
+# Run the game
+python snake_game.py
+```
+
 ## Project Structure
 ```
 .
 ├── README.md
-└── catch_the_star/
-    ├── catch_the_star.py
+├── catch_the_star/
+│   ├── catch_the_star.py
+│   ├── README.md
+│   └── docs/
+│       └── images/           # Game screenshots
+└── snake_game/
+    ├── snake_game.py
     ├── README.md
     └── docs/
         └── images/           # Game screenshots
 ```
-
-## Future Plans
-More games will be added using different Python game development libraries to explore various approaches to game creation.
